@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>主营业务 — 博昌园（宜兴）有限公司</title>
+<meta name="description" content="博昌园主营业务：纺织、化工、服装、医疗器械与外贸出口，多元制造与一站式外贸服务。">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230F2A3B'/%3E%3Cpath d='M18 44V20h6v24h-6zm11 0V20h6v24h-6zm11 0V20h6v24h-6z' fill='%23C99A55'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://miaoda.feishu.cn/fonts/css2?family=Noto+Serif+SC:wght@500;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700&display=swap">
+<style>
+  :root{--ink:#0F2A3B;--ink-2:#1B3B52;--steel:#41627A;--brass:#B08344;--brass-2:#C99A55;--brass-l:#E4C691;--sand:#F2EDE3;--paper:#FBF9F4;--line:#E2D9C8;--muted:#5C6B76;--white:#fff;
+    --serif:'Noto Serif SC',"Songti SC","STSong","SimSun",serif;--sans:'Noto Sans SC',"PingFang SC","Microsoft YaHei",system-ui,sans-serif;}
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{font-family:var(--sans);color:var(--ink);background:var(--paper);line-height:1.75;-webkit-font-smoothing:antialiased}
+  img{display:block;max-width:100%}
+  a{color:inherit;text-decoration:none}
+  .wrap{max-width:1200px;margin:0 auto;padding:0 28px}
+  header.nav{position:fixed;inset:0 0 auto 0;z-index:50;background:rgba(15,42,59,.97);border-bottom:1px solid rgba(255,255,255,.08)}
+  .nav-inner{display:flex;align-items:center;justify-content:space-between;height:70px}
+  .brand{display:flex;align-items:center;gap:12px}
+  .brand .mark{width:40px;height:40px;border-radius:9px;background:linear-gradient(135deg,var(--brass-2),var(--brass));display:flex;align-items:center;justify-content:center}
+  .brand .mark svg{width:24px;height:24px}
+  .brand-name{color:#fff;font-family:var(--serif);font-weight:700;font-size:18px;letter-spacing:1px}
+  .brand-sub{color:rgba(255,255,255,.55);font-size:11px;letter-spacing:2px}
+  .nav-links{display:none;gap:28px}
+  .nav-links a{color:rgba(255,255,255,.82);font-size:15px;position:relative;padding:6px 0;transition:color .2s}
+  .nav-links a::after{content:"";position:absolute;left:0;bottom:0;width:0;height:2px;background:var(--brass-2);transition:width .25s}
+  .nav-links a:hover{color:#fff}
+  .nav-links a.active{color:#fff}
+  .nav-links a.active::after{width:100%}
+  .nav-cta{display:none}
+  .burger{width:44px;height:44px;display:flex;flex-direction:column;justify-content:center;gap:5px;align-items:center;background:none;border:0;cursor:pointer}
+  .burger span{width:24px;height:2px;background:#fff;transition:.3s}
+  .burger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+  .burger.open span:nth-child(2){opacity:0}
+  .burger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+  .mobile-menu{position:fixed;inset:70px 0 0 0;background:var(--ink);z-index:49;display:none;flex-direction:column;padding:28px 24px;gap:6px}
+  .mobile-menu.open{display:flex}
+  .mobile-menu a{color:#fff;font-size:18px;padding:14px 4px;border-bottom:1px solid rgba(255,255,255,.1);font-family:var(--serif)}
+  .btn{display:inline-flex;align-items:center;gap:8px;padding:13px 28px;border-radius:999px;font-size:15px;font-weight:500;cursor:pointer;border:1px solid transparent;transition:.25s}
+  .btn svg{width:18px;height:18px}
+  .btn-solid{background:var(--brass-2);color:var(--ink)}
+  .btn-solid:hover{background:var(--brass-l);transform:translateY(-2px)}
+  .page-hero{background:linear-gradient(160deg,rgba(15,42,59,.92) 0%,rgba(27,59,82,.9) 100%),url('assets/hero.jpg') center/cover no-repeat;color:#fff;padding-block:132px 56px}
+  .page-hero .crumb{color:var(--brass-l);font-size:13px;letter-spacing:3px;display:flex;align-items:center;gap:10px}
+  .page-hero .crumb::before{content:"";width:30px;height:2px;background:var(--brass-2)}
+  .page-hero h1{font-family:var(--serif);font-size:clamp(30px,5vw,52px);font-weight:700;margin-top:16px;letter-spacing:1px}
+  .page-hero p{color:rgba(255,255,255,.8);max-width:680px;margin-top:14px;font-weight:300}
+  .anchor-bar{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:70px;z-index:20}
+  .anchor-bar .anchors{display:flex;gap:8px;overflow-x:auto;padding-block:12px}
+  .anchor-bar a{flex:none;font-size:14px;color:var(--muted);padding:7px 16px;border:1px solid var(--line);border-radius:999px;transition:.2s}
+  .anchor-bar a:hover{color:var(--ink);border-color:var(--brass)}
+  .sec{padding:76px 0}
+  .biz-row{display:grid;gap:40px;align-items:center;scroll-margin-top:150px}
+  .biz-row .fig{border-radius:14px;overflow:hidden;box-shadow:0 24px 60px -28px rgba(15,42,59,.4)}
+  .biz-row .fig img{width:100%;height:100%;object-fit:cover;min-height:300px}
+  .biz-row .biz-num{font-family:var(--serif);font-size:14px;letter-spacing:3px;color:var(--brass);display:flex;align-items:center;gap:10px}
+  .biz-row .biz-num::before{content:"";width:28px;height:2px;background:var(--brass-2)}
+  .biz-row h2{font-family:var(--serif);font-size:clamp(26px,4vw,34px);font-weight:700;margin:12px 0 16px}
+  .biz-row .en{font-size:12px;letter-spacing:3px;color:var(--muted)}
+  .biz-row p{color:#46596b;margin-bottom:16px;font-weight:300}
+  .biz-row ul{list-style:none;display:flex;flex-wrap:wrap;gap:9px;margin-bottom:20px}
+  .biz-row li{font-size:13px;color:#3a5163;background:var(--sand);border:1px solid var(--line);padding:6px 14px;border-radius:999px}
+  .biz-row .feat{display:grid;gap:10px;border-top:1px solid var(--line);padding-top:16px}
+  .biz-row .feat span{font-size:13.5px;color:var(--muted);display:flex;gap:10px;align-items:center}
+  .biz-row .feat svg{width:17px;height:17px;color:var(--brass);flex:none}
+  .sec-alt{background:var(--sand)}
+  .cta-bar{background:var(--ink);color:#fff;text-align:center;padding:64px 0}
+  .cta-bar h2{font-family:var(--serif);font-size:clamp(24px,3.6vw,34px);margin-bottom:12px}
+  .cta-bar p{color:rgba(255,255,255,.75);max-width:560px;margin:0 auto 28px}
+  footer{background:#0B1F2C;color:rgba(255,255,255,.6);padding:26px 0;font-size:13px}
+  .foot{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+  .foot a{color:rgba(255,255,255,.7)}
+  .foot a:hover{color:var(--brass-l)}
+  .reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
+  .reveal.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+  @media (min-width:900px){
+    .nav-links{display:flex}.nav-cta{display:inline-flex}.burger{display:none}
+    .sec{padding:92px 0}
+    .biz-row{grid-template-columns:1fr 1fr;gap:60px}
+    .biz-row.flip .fig{order:2}
+  }
+</style>
+</head>
+<body>
+
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="index.html"><span class="mark"><svg viewBox="0 0 24 24" fill="none"><path d="M5 19V9l7-4 7 4v10" stroke="#0F2A3B" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/><path d="M9 19v-6h6v6" stroke="#0F2A3B" stroke-width="2.4" stroke-linejoin="round"/></svg></span>
+      <span><span class="brand-name">博昌园</span><br><span class="brand-sub">BOCHANGYUAN · YIXING</span></span></a>
+    <nav class="nav-links">
+      <a href="index.html">首页</a>
+      <a href="about.html">关于我们</a>
+      <a href="business.html" class="active">主营业务</a>
+      <a href="advantages.html">核心优势</a>
+      <a href="trade.html">全球贸易</a>
+      <a href="contact.html">联系我们</a>
+    </nav>
+    <a class="btn btn-solid nav-cta" href="contact.html">获取合作</a>
+    <button class="burger" id="burger" aria-label="菜单"><span></span><span></span><span></span></button>
+  </div>
+</header>
+<div class="mobile-menu" id="mmenu">
+  <a href="index.html">首页</a><a href="about.html">关于我们</a><a href="business.html">主营业务</a><a href="advantages.html">核心优势</a><a href="trade.html">全球贸易</a><a href="contact.html">联系我们</a>
+</div>
+
+<section class="page-hero">
+  <div class="wrap">
+    <div class="crumb">BUSINESS LINES</div>
+    <h1>五大主营业务板块</h1>
+    <p>从原材料、中间品到成品制造与国际贸易，博昌园构建起相互协同、覆盖多行业的完整业务体系。</p>
+  </div>
+</section>
+
+<div class="anchor-bar"><div class="wrap anchors">
+  <a href="#textile">纺织</a><a href="#chemical">化工</a><a href="#apparel">服装</a><a href="#medical">医疗器械</a><a href="#trade">外贸</a>
+</div></div>
+
+<section class="sec" id="textile">
+  <div class="wrap">
+    <div class="biz-row reveal">
+      <figure class="fig"><img src="assets/textile.jpg" alt="纺织生产车间"></figure>
+      <div>
+        <div class="biz-num">TEXTILE</div>
+        <h2>纺织</h2>
+        <div class="en">TEXTILE MANUFACTURING</div>
+        <p>纱线、面料及家纺等纺织品的生产与供应，覆盖从原料梳理、纺纱到成品织造的完整环节，可根据客户要求定制规格与品质。</p>
+        <ul><li>纱线</li><li>机织 / 针织面料</li><li>家纺产品</li><li>产业用纺织品</li></ul>
+        <div class="feat">
+          <span><svg viewBox="0 0 24 24" fill="none"><path d="M3 12l7 7L21 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>覆盖从原料到成品的完整纺织流程</span>
+          <span><svg viewBox="0 0 24 24" fill="none"><path d="M3 12l7 7L21 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>可定制纱支、克重与面料规格</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-alt" id="chemical">
+  <div class="wrap">
+    <div class="biz-row flip reveal">
+      <figure class="fig"><img src="assets/chemical.jpg" alt="化工生产装置"></figure>
+      <div>
+        <div class="biz-num">CHEMICAL</div>
+        <h2>化工</h2>
+        <div class="en">CHEMICALS &amp; AUXILIARIES</div>
+        <p>化工原料、助剂及相关产品的生产与销售，应用于纺织、日化与工业等多个下游领域，注重生产规范与产品稳定性。</p>
+        <ul><li>化工原料</li><li>纺织助剂</li><li>日化原辅料</li><li>工业化学品</li></ul>
+        <div class="feat">
+          <span><svg viewBox="0 0 24 24" fill="none"><path d="M3 12l7 7L21 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>服务纺织、日化与工业多类下游</span>
+          <span><svg viewBox="0 0 24 24" fill="none"><path d="M3 12l7 7L21 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>规范生产，产品稳定性可控</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="apparel">
+  <div class="wrap">
+    <div class="biz-row reveal">
+      <figure class="fig"><img src="assets/clothing.jpg" alt="服装缝纫车间"></figure>
+      <div>
+        <div class="biz-num">APPAREL</div>
+        <h2>服装</h2>
+        <div class="en">APPAREL &amp; GARMENT</div>
+        <p>成衣设计与制造，提供 ODM / OEM 定制服务，满足多品类、多批量的柔性生产需求，可依客户版型、工艺与面料要求组织生产。</p>
+        <ul><li>成衣制造</li><li>ODM / OEM</li><li>工装 / 防护</li><li>时尚服饰</li></ul>
+        <div class="feat">
+          <span><svg viewBox="0 0 24 24" fill="none"><path d="M3 12l7 7L21 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>支持多品类、多批量柔性生产</span>
+          <span><svg viewBox="0 0 24 24" fill="none"><path d="M3 12l7 7L21 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>按客户版型与工艺定制</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec sec-alt" id="medical">
+  <div class="wrap">
+    <div class="biz-row flip reveal">
+      <figure class="fig"><img src="assets/medical.jpg" alt="医疗器械洁净生产车间"></figure>
+      <div>
+        <div class="biz-num">MEDICAL</div>
+        <h2>医疗器械</h2>
+        <div class="en">MEDICAL DEVICES</div>
+        <p>医疗器械及耗材的制造与供应，注重洁净生产与质量管理体系的规范执行，按目标市场要求办理认证与合规文件。</p>
+        <ul><li>医疗耗材</li><li>防护用品</li><li>清洁消毒产品</li><li>专业器械供应</li></ul>
+        <div class="feat">
+          <span><svg viewBox="0 0 24 24" fill="none"><path d="M3 12l7 7L21 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>洁净生产与质量管理体系规范</span>
+          <span><svg viewBox="0 0 24 24" fill="none"><path d="M3 12l7 7L21 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>按目标市场要求办理认证合规</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="sec" id="trade">
+  <div class="wrap">
+    <div class="biz-row reveal">
+      <figure class="fig"><img src="assets/trade.jpg" alt="集装箱港口外贸物流"></figure>
+      <div>
+        <div class="biz-num">TRADE</div>
+        <h2>外贸</h2>
+        <div class="en">FOREIGN TRADE</div>
+        <p>面向全球市场的进出口贸易与物流服务，涵盖询单对接、订单管理、报关与国际交付全流程，多语种团队快速响应。</p>
+        <ul><li>进出口贸易</li><li>多语种对接</li><li>报关物流</li><li>国际认证合规</li></ul>
+        <div class="feat">
+          <span><svg viewBox="0 0 24 24" fill="none"><path d="M3 12l7 7L21 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>从询盘到交付的全流程贸易服务</span>
+          <span><svg viewBox="0 0 24 24" fill="none"><path d="M3 12l7 7L21 5" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>多语种对接与一站式报关物流</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="cta-bar">
+  <div class="wrap"><h2>对某一业务板块感兴趣？</h2><p>欢迎提供您的需求，我们将在询盘、打样到交付的每个环节与您紧密协作。</p>
+  <a class="btn btn-solid" href="contact.html">联系我们</a></div>
+</div>
+
+<footer>
+  <div class="wrap foot">
+    <span>© 2026 博昌园（宜兴）有限公司 · 纺织 / 化工 / 服装 / 医疗器械 / 外贸</span>
+    <span><a href="index.html">首页</a> · <a href="about.html">关于我们</a> · <a href="contact.html">联系我们</a></span>
+  </div>
+</footer>
+
+<script>
+  const nav=document.querySelector('.nav');window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',window.scrollY>40),{passive:true});
+  const burger=document.getElementById('burger'),mmenu=document.getElementById('mmenu');
+  burger.addEventListener('click',()=>{burger.classList.toggle('open');mmenu.classList.toggle('open');});
+  mmenu.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{burger.classList.remove('open');mmenu.classList.remove('open');}));
+  const ro=new IntersectionObserver(es=>{es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');ro.unobserve(e.target);}});},{threshold:.12});
+  document.querySelectorAll('.reveal').forEach(el=>ro.observe(el));
+</script>
+</body>
+</html>
